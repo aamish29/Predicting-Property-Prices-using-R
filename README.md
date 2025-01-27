@@ -47,19 +47,9 @@ The pipeline includes several stages:
 - The predictions undergo a series of transformations (e.g., inverse scaling and inverse log transformation) to get the final predicted sale prices.
 - The results are saved into a CSV file, including the `pid` (property identifier) and the predicted sale price (`final_sale_price`).
 
-## Requirements
 
-The following R packages are required to run this code:
+## Conclusion
 
-- `readr`
-- `caret`
-- `Metrics`
-- `randomForest`
+This project demonstrates how to use machine learning models to predict property prices using historical data. By applying proper data preprocessing, feature engineering, and model evaluation, we can obtain reliable predictions that can be useful in the real estate industry for property assessment and valuation.
 
-You can install these packages using the following commands:
 
-```r
-install.packages("readr")
-install.packages("caret")
-install.packages("Metrics")
-install.packages("randomForest")
