@@ -1,4 +1,4 @@
-# Predicting-property-prices
+# Predicting-Property-Prices-using-R
 Prediction of property prices using Machine Learning
 
 This repository contains a machine learning pipeline for predicting property sale prices using historical property data. The project leverages multiple models, including linear regression and random forests, to predict the sale price of properties based on various features such as property characteristics, geographical data, and economic indicators.
